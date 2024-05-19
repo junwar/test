@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphone_14_15_pro___1"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:layout_marginTop="610dp"
+        android:layout_gravity="center"
+        android:src="@drawable/group_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_marginTop="-45dp"
+        android:layout_marginStart="90dp"
+        android:background="@null"
+        android:foreground="@null"
+        android:hint="masukkan nomer anda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/mulai"
+        android:layout_gravity="center"
+        android:src="@drawable/group_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="?attr/selectableItemBackground"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:elevation="8dp"/>
+
+</LinearLayout>
